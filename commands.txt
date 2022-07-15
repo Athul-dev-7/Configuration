@@ -1,0 +1,14 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install curl
+sudo apt install fish
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+nvm install v16
+sudo apt install fzf
+fisher install PatrickF1/fzf.fish
+sudo apt-get install git
+sudo snap install --classic code
+fisher install jethrokuan/z
+fisher install jorgebucaran/autopair.fish
+
