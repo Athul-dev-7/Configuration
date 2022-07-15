@@ -11,4 +11,4 @@ sudo apt-get install git
 sudo snap install --classic code
 fisher install jethrokuan/z
 fisher install jorgebucaran/autopair.fish
-
+fisher install IlanCosman/tide@v5
