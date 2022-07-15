@@ -12,3 +12,5 @@
 	co = checkout
 	br = branch
 	dc = diff --cached
+	lgpo = log --pretty=oneline
+	lgo = log --oneline
