@@ -1,0 +1,14 @@
+[user]
+	name = AthulDas
+	email = athuldas@hamon.in
+[pull]
+	rebase = True
+[alias]
+	st = status
+	cm = commit -m
+	can = commit --amend --no-edit
+	olog = log --pretty=format:"%C(cyan)%cD%Creset|%Cred%t%Creset|%Cgreen%s%Creset|%C(yellow)%cn"
+	lg = log -p
+	co = checkout
+	br = branch
+	dc = diff --cached
